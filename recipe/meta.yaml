@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=3.7
     - pip
+    - setuptools
   run:
     - python >=3.7
     - numpy >=1.18.0
@@ -41,6 +42,7 @@ outputs:
         - jax-jumpy
         - numpy >=1.18.0
         - typing-extensions
+        - setuptools
       run:
         - python >=3.7
         - numpy >=1.18.0
@@ -88,6 +90,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -132,6 +135,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -149,6 +153,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -174,6 +179,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -197,6 +203,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -220,6 +227,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
@@ -244,6 +252,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('shimmy', exact=True) }}
